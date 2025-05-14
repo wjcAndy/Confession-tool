@@ -5,6 +5,7 @@
 调整文字坐标
 
 ##mac打包命令
+
 nuitka --standalone \
         --onefile \
         --macos-create-app-bundle \
@@ -15,6 +16,7 @@ nuitka --standalone \
         表白.py
 
 ##win打包命令
+
 nuitka --standalone \
         --onefile \
         --windows-disable-console \
